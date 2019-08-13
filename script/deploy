@@ -1,8 +1,8 @@
 #!/bin/sh
 ssh root@157.230.248.161 EOF
-cd ~/node-app
-git pull
-npm install
-pm2 restart all
+cd ~/node-app EOF
+git pull EOF
+npm install EOF
+pm2 restart node-app EOF
 exit
 EOF
