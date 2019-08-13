@@ -2,7 +2,7 @@
 ssh root@157.230.248.161 <<EOF
  cd ~/node-app
  git pull
- npm install -production
+ npm install
  pm2 restart all
  exit
 EOF
