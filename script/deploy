@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh root@157.230.248.161 EOF
- cd /var/jenkins-test/node-app
+ cd var/jenkins-test/node-app
  git pull
  npm install
  pm2 restart node-app

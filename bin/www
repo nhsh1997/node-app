@@ -5,6 +5,11 @@ const port = 7000;
 app.set('port', port);
 
 const server = http.createServer(app);
+
+
+const io = require('socket.io').listen(server);
+require('../utils/Socket').init(io);
+
 server.on('listening', onListening);
 
 server.listen(port);
