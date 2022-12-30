@@ -18,7 +18,7 @@
   "homepage": "https://github.com/nhsh1997/node-app#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "socket.io": "^2.2.0",
     "supertest": "^4.0.2"
   }
